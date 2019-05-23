@@ -1,3 +1,11 @@
 .vs
 x64
 *.user
+# ignore files in folder bin
+bin/*
+# but keep the folder
+!bin/.gitkeep
+# ignore files in folder build
+build/*
+# but keep the folder
+!build/.gitkeep
